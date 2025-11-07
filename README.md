@@ -78,6 +78,6 @@ src/
 
 ## 📸 Vista previa
 
-![Vista previa de la aplicación](img/screen.png)
+![Vista previa de la aplicación](static/img/screen.png)
 
 ---
