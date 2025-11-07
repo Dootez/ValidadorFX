@@ -78,6 +78,6 @@ src/
 
 ## 📸 Vista previa
 
-> *(Añade aquí una captura de tu aplicación si lo deseas, por ejemplo `resources/img/screenshot.png`)*
+![Vista previa de la aplicación](img/screen.png)
 
 ---
