@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.ud5.validadorfx.controller.ValidadorController"
+            style="-fx-padding: 20;">
+    <center>
+        <GridPane hgap="10" vgap="10" alignment="CENTER">
+            <Label text="ValidadorFX" style="-fx-font-size: 24px; -fx-font-weight: bold;"
+                   GridPane.columnSpan="2" GridPane.halignment="CENTER"/>
+
+            <Label text="Nombre:" GridPane.rowIndex="1"/>
+            <TextField fx:id="nombreField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+            <Label text="DNI:" GridPane.rowIndex="2"/>
+            <TextField fx:id="dniField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+            <Label text="Fecha nacimiento:" GridPane.rowIndex="3"/>
+            <DatePicker fx:id="fechaNacimientoPicker" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+            <Label text="Género:" GridPane.rowIndex="4"/>
+            <ComboBox fx:id="generoCombo" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+            <Label text="Dirección:" GridPane.rowIndex="5"/>
+            <TextField fx:id="direccionField" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+            <Label text="Correo Electrónico:" GridPane.rowIndex="6"/>
+            <TextField fx:id="correoField" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+
+            <Label text="Nº Tarjeta:" GridPane.rowIndex="7"/>
+            <TextField fx:id="tarjetaField" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+
+            <Label text="ISBN:" GridPane.rowIndex="8"/>
+            <TextField fx:id="isbnField" GridPane.rowIndex="8" GridPane.columnIndex="1"/>
+
+            <Label text="IBAN:" GridPane.rowIndex="9"/>
+            <TextField fx:id="ibanField" GridPane.rowIndex="9" GridPane.columnIndex="1"/>
+
+            <Button fx:id="validarButton" text="Validar" onAction="#validarFormulario"
+                    style="-fx-font-weight: bold; -fx-padding: 6 20;"
+                    GridPane.rowIndex="10" GridPane.columnSpan="2" GridPane.halignment="CENTER"/>
+
+            <Label fx:id="resultadoLabel"
+                   GridPane.rowIndex="11" GridPane.columnSpan="2" GridPane.halignment="CENTER"/>
+        </GridPane>
+    </center>
+</BorderPane>
+
