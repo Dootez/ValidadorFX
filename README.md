@@ -36,6 +36,8 @@ El formulario permite introducir y validar los siguientes campos:
 
 ```
 src/
+└──img/
+|  └──screen.png
 └── main/
 ├── java/
 │ └── com/ud5/validaciondatos/
@@ -48,8 +50,6 @@ src/
 │ └── ValidatorUtils.java
 └── resources/
 ├── com/ud5/validaciondatos/
-| └──img/
-|  └──screen.png
 │ └── form-view.fxml
 └── css/
 └── style.css
@@ -78,6 +78,8 @@ src/
 
 ## 📸 Vista previa
 
-![Vista previa de la aplicación](src/static/img/screen.png)
+<p align="center">
+  <img src="src/static/img/screen.png" alt="Vista previa de la aplicación" width="500">
+</p>
 
 ---
